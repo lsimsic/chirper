@@ -1,5 +1,7 @@
 *.log
 .DS_Store
+.claude/settings.local.json
+.claude/local.md
 .env
 .env.backup
 .env.production
