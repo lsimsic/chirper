@@ -28,7 +28,7 @@
                     <span class="text-sm text-base-content/60">{{ $chirp->created_at->diffForHumans() }}</span>
                 </div>
 
-                <p class="mt-1">
+                <p class="mt-1 break-words">
                     {{ $chirp->message }}
                 </p>
             </div>
